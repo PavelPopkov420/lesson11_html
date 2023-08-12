@@ -165,3 +165,15 @@
         font-weight: 400;
         line-height: normal;
     }
+    
+    .more_con {
+        margin-top: 40px;
+        margin-left: 130%;
+        padding: 15px 39px;
+        width: 212px;
+        height: 48px;
+        flex-shrink: 0;
+        color: #FF6A6A;
+        text-decoration: none;
+        border: 1px solid #FF6A6A;
+    }
