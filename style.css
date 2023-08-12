@@ -1,180 +1,181 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    .body {
-        width: 1600px;
-        height: 2925px;
-    }
-    
-    .container {
-        width: 1600px;
-        height: 75px;
-    }
-    
-    .header {
-        width: 1600px;
-        background-color: #222;
-        position: relative;
-        ;
-    }
-    
-    .header__logo {
-        position: absolute;
-        top: 18px;
-        right: 1325px;
-        bottom: 19px;
-        left: 213px;
-    }
-    
-    .lupa {
-        position: absolute;
-        top: 28.21px;
-        right: 1325px;
-        bottom: 20px;
-        left: 316px;
-    }
-    
-    .menu_header {
-        position: absolute;
-        top: 26px;
-        right: 240px;
-        bottom: 20px;
-        left: 1201px;
-    }
-    
-    .flex {
-        width: 1600px;
-        height: 764px;
-        display: flex;
-        justify-self: space-between;
-        background-color: #F1E4E6;
-    }
-    
-    .main_right {
-        margin-top: 289px;
-    }
-    
-    .item_main {
-        padding: 8px;
-    }
-    
-    .content_menu {
-        padding-top: 65px;
-        display: grid;
-        gap: 30px;
-        grid-template-columns: repeat(3, 362px);
-        width: 1600px;
-        justify-content: center;
-    }
-    
-    .dsc {
-        display: flex;
-        gap: 30px;
-        justify-content: center;
-        color: #222;
-        text-align: center;
-        font-family: Lato;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    .dsc1 {
-        display: flex;
-        gap: 30px;
-        justify-content: center;
-        color: #F16D7F;
-        font-family: Lato;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-    
-    .title_content {
-        padding-top: 96px;
-        padding-left: 710px;
-    }
-    
-    .title_text {
-        color: #222;
-        font-family: Lato;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    .title_text_p {
-        color: #9F9F9F;
-        font-family: Lato;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    .content {
-        padding-top: 65px;
-        display: grid;
-        gap: 30px;
-        grid-template-columns: repeat(3, 362px);
-        width: 1600px;
-        justify-content: center;
-    }
-    
-    .item_content {
-        background-color: #F8F8F8;
-    }
-    
-    .item_big {
-        display: grid;
-        grid-row: snap 3;
-    }
-    
-    .title__con {
-        padding-top: 24px;
-        color: #000;
-        font-family: Lato;
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    .text_con {
-        padding-top: 16px;
-        color: #5D5D5D;
-        font-family: Lato;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
-    }
-    
-    .price {
-        padding-top: 16px;
-        padding-bottom: 24px;
-        color: #F16D7F;
-        font-family: Lato;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    .more_con {
-        margin-top: 40px;
-        margin-left: 130%;
-        padding: 15px 39px;
-        width: 212px;
-        height: 48px;
-        flex-shrink: 0;
-        color: #FF6A6A;
-        text-decoration: none;
-        border: 1px solid #FF6A6A;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 1600px;
+    height: 2925px;
+}
+
+.container {
+    width: 1600px;
+    height: 75px;
+}
+
+.header {
+    width: 1600px;
+    background-color: #222;
+    position: relative;
+    ;
+}
+
+.header__logo {
+    position: absolute;
+    top: 18px;
+    right: 1325px;
+    bottom: 19px;
+    left: 213px;
+}
+
+.lupa {
+    position: absolute;
+    top: 28.21px;
+    right: 1325px;
+    bottom: 20px;
+    left: 316px;
+}
+
+.menu_header {
+    position: absolute;
+    top: 26px;
+    right: 240px;
+    bottom: 20px;
+    left: 1201px;
+}
+
+.flex {
+    width: 1600px;
+    height: 764px;
+    display: flex;
+    justify-self: space-between;
+    background-color: #F1E4E6;
+}
+
+.main_right {
+    margin-top: 289px;
+}
+
+.item_main {
+    padding: 8px;
+}
+
+.content_menu {
+    padding-top: 65px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 362px);
+    width: 1600px;
+    justify-content: center;
+}
+
+.dsc {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    color: #222;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dsc1 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title_content {
+    padding-top: 96px;
+    padding-left: 710px;
+}
+
+.title_text {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title_text_p {
+    margin-left: -60px;
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content {
+    padding-top: 65px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 362px);
+    width: 1600px;
+    justify-content: center;
+}
+
+.item_content {
+    background-color: #F8F8F8;
+}
+
+.item_big {
+    display: grid;
+    grid-row: snap 3;
+}
+
+.title__con {
+    padding-top: 24px;
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text_con {
+    padding-top: 16px;
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.price {
+    padding-top: 16px;
+    padding-bottom: 24px;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.more_con {
+    margin-top: 40px;
+    margin-left: 130%;
+    padding: 15px 39px;
+    width: 212px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #FF6A6A;
+    text-decoration: none;
+    border: 1px solid #FF6A6A;
+}
