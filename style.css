@@ -130,6 +130,11 @@
         background-color: #F8F8F8;
     }
     
+    .item_big {
+        display: grid;
+        grid-row: snap 3;
+    }
+    
     .title__con {
         padding-top: 24px;
         color: #000;
